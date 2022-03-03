@@ -26,6 +26,19 @@ namespace Stack_Problems
             }
 
         }
+        public void Peak_Pop()
+        {
+
+            while (Tail != null)
+            {
+                Node p = Tail;
+                Console.WriteLine("\nPeak " + p.data);
+                Tail = Tail.next;
+                Display();
+            }
+
+
+        }
         public void Display()
         {
             if (Tail == null)

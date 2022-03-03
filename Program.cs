@@ -18,6 +18,7 @@ namespace Stack_Problems
             stacks.Push(node3);
 
             stacks.Display();
+            stacks.Peak_Pop();
         }
     }
 }
