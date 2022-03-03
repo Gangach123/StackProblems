@@ -36,8 +36,24 @@ namespace Stack_Problems
                 Tail = Tail.next;
                 Display();
             }
+        }
+        public void Enqueue(Node data)
+        {
+            if (Tail == null)
+            {
+                Tail = data;
+            }
+            else
+            {
+                Node temp = data;
+                Node p = Tail;
+                while (p.next != null)
+                {
+                    p = p.next;
+                }
+                p.next = temp;
 
-
+            }
         }
         public void Display()
         {

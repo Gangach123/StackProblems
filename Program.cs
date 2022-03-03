@@ -13,12 +13,12 @@ namespace Stack_Problems
             Node node2 = new Node(30);
             Node node3 = new Node(56);
 
-            stacks.Push(node1);
-            stacks.Push(node2);
-            stacks.Push(node3);
+            stacks.Enqueue(node1);
+            stacks.Enqueue(node2);
+            stacks.Enqueue(node3);
 
             stacks.Display();
-            stacks.Peak_Pop();
+            
         }
     }
 }
