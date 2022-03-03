@@ -18,7 +18,8 @@ namespace Stack_Problems
             stacks.Enqueue(node3);
 
             stacks.Display();
-            
+            stacks.Dequeue();
+
         }
     }
 }

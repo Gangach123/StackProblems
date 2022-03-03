@@ -55,6 +55,14 @@ namespace Stack_Problems
 
             }
         }
+        public void Dequeue()
+        {
+            while (Tail != null)
+            {
+                Tail = Tail.next;
+                Display();
+            }
+        }
         public void Display()
         {
             if (Tail == null)
